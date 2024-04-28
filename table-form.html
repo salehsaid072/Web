@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-form</title>
+    <style>
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table border="1" width="50%">
+            <tr>
+                <th colspan="2">Pizza Shop 2.0</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Pizza Topping</td>
+                <td>
+                    <p><input type="radio" name="piza">Supreme</p>
+                    <p><input type="radio" name="piza">Vegetarian</p>
+                    <p><input type="radio" name="piza">hawaiian</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Pizza Sauce</td>
+                <td>
+                    <select name="">
+                        <option value="">Tomato</option>
+                        <option value="">Patato</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <input type="checkbox">Extra Cheese
+                    <input type="checkbox">Gluten Free Base
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>Delivery Instruction:</p>
+                    <textarea name="" cols="35" rows="5"></textarea>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button>Send my Order</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
